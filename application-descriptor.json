@@ -1,6 +1,6 @@
 {
   "name": "app-licenses",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.0-SNAPSHOT.1000",
   "description": "Application descriptor for the FOLIO Licenses application",
   "platform": "complete",
   "dependencies": [
