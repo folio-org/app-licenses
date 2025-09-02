@@ -1,6 +1,6 @@
 {
   "name": "app-licenses",
-  "version": "1.0.0-SNAPSHOT.100000000000001",
+  "version": "1.0.0-SNAPSHOT.100100000000128",
   "description": "Application descriptor for the FOLIO Licenses application",
   "platform": "complete",
   "dependencies": [
@@ -18,11 +18,11 @@
   "uiModules": [
     {
       "name": "folio_licenses",
-      "version": "12.1.109900000000185"
+      "version": "12.1.109900000000197"
     },
     {
       "name": "folio_plugin-find-license",
-      "version": "12.1.10990000000097"
+      "version": "12.1.109900000000104"
     }
   ]
 }
