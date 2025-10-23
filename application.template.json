@@ -1,0 +1,32 @@
+{
+    "name": "${project.name}",
+    "version": "${project.version}",
+    "description": "${project.description}",
+    "platform": "complete",
+    "dependencies": [
+      {
+        "name": "app-platform-minimal",
+        "version": "^2.1.0-SNAPSHOT",
+        "preRelease": "only"
+      }
+    ],
+    "modules": [
+      {
+        "name": "mod-licenses",
+        "version": "latest",
+        "preRelease": "only"
+      }
+    ],
+    "uiModules": [
+      {
+        "name": "folio_licenses",
+        "version": "latest",
+        "preRelease": "only"
+      },
+      {
+        "name": "folio_plugin-find-license",
+        "version": "latest",
+        "preRelease": "only"
+      }
+    ]
+  }
