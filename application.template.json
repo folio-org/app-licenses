@@ -6,26 +6,26 @@
   "dependencies": [
     {
       "name": "app-platform-minimal",
-      "version": "^VERSION_^2.1.0-SNAPSHOT",
+      "version": "~2.1.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-licenses",
-      "version": "^VERSION_latest",
+      "version": "~6.3.0",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_licenses",
-      "version": "^VERSION_latest",
+      "version": "~12.1.0",
       "preRelease": "false"
     },
     {
       "name": "folio_plugin-find-license",
-      "version": "^VERSION_latest",
+      "version": "~12.1.0",
       "preRelease": "false"
     }
   ]
