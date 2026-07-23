@@ -1,7 +1,7 @@
 {
-  "id" : "app-licenses-1.1.0-SNAPSHOT.100200000010957",
+  "id" : "app-licenses-1.1.0-SNAPSHOT.100200000010972",
   "name" : "app-licenses",
-  "version" : "1.1.0-SNAPSHOT.100200000010957",
+  "version" : "1.1.0-SNAPSHOT.100200000010972",
   "description" : "Application descriptor for the FOLIO Licenses application",
   "modules" : [ {
     "id" : "mod-licenses-6.4.0-SNAPSHOT.333",
@@ -9,9 +9,9 @@
     "version" : "6.4.0-SNAPSHOT.333"
   } ],
   "uiModules" : [ {
-    "id" : "folio_licenses-12.2.1099000000000394",
+    "id" : "folio_licenses-12.2.1099000000000397",
     "name" : "folio_licenses",
-    "version" : "12.2.1099000000000394"
+    "version" : "12.2.1099000000000397"
   }, {
     "id" : "folio_plugin-find-license-12.2.1099000000000166",
     "name" : "folio_plugin-find-license",
@@ -638,7 +638,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_licenses-12.2.1099000000000394",
+    "id" : "folio_licenses-12.2.1099000000000397",
     "name" : "ERM License functionality for Stripes",
     "requires" : [ {
       "id" : "licenses",
