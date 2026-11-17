@@ -1,7 +1,7 @@
 {
-  "id" : "app-licenses-1.1.0-SNAPSHOT.100200000010972",
+  "id" : "app-licenses-1.1.0-SNAPSHOT.100200000011953",
   "name" : "app-licenses",
-  "version" : "1.1.0-SNAPSHOT.100200000010972",
+  "version" : "1.1.0-SNAPSHOT.100200000011953",
   "description" : "Application descriptor for the FOLIO Licenses application",
   "modules" : [ {
     "id" : "mod-licenses-6.4.0-SNAPSHOT.333",
@@ -9,9 +9,9 @@
     "version" : "6.4.0-SNAPSHOT.333"
   } ],
   "uiModules" : [ {
-    "id" : "folio_licenses-12.2.1099000000000397",
+    "id" : "folio_licenses-12.2.1099000000000401",
     "name" : "folio_licenses",
-    "version" : "12.2.1099000000000397"
+    "version" : "12.2.1099000000000401"
   }, {
     "id" : "folio_plugin-find-license-12.2.1099000000000166",
     "name" : "folio_plugin-find-license",
@@ -638,7 +638,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_licenses-12.2.1099000000000397",
+    "id" : "folio_licenses-12.2.1099000000000401",
     "name" : "ERM License functionality for Stripes",
     "requires" : [ {
       "id" : "licenses",
@@ -727,26 +727,26 @@
     } ],
     "metadata" : {
       "stripes" : {
-        "actsAs" : [ "app", "handler", "settings" ],
-        "handlerName" : "eventHandler",
-        "displayName" : "ui-licenses.meta.title",
-        "route" : "/licenses",
         "home" : "/licenses",
-        "queryResource" : "query",
-        "stripesDeps" : [ "@folio/stripes-erm-components" ],
         "icons" : [ {
-          "name" : "app",
           "alt" : "ERM license functionality for Stripes",
+          "name" : "app",
           "title" : "Licenses"
         }, {
-          "name" : "inactiveLicense",
           "alt" : " ",
+          "name" : "inactiveLicense",
           "title" : "Inactive license"
         }, {
-          "name" : "amendment",
           "alt" : " ",
+          "name" : "amendment",
           "title" : "Amendment"
-        } ]
+        } ],
+        "route" : "/licenses",
+        "actsAs" : [ "app", "handler", "settings" ],
+        "displayName" : "ui-licenses.meta.title",
+        "handlerName" : "eventHandler",
+        "stripesDeps" : [ "@folio/stripes-erm-components" ],
+        "queryResource" : "query"
       }
     }
   }, {
